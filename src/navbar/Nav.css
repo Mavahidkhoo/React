@@ -1,0 +1,17 @@
+.navcolor {
+  background-color: #274C77;
+}
+.nav-link {
+  color:white;
+}
+.nav-link:hover{
+  color: aquamarine;
+}
+img{
+  width: 200px;
+  height: 45px;
+  border-radius: 15px;
+}
+.nav-link.active {
+  color: #A3CEF1 !important; 
+}

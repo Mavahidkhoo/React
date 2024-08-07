@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../src/assets/fonts/yekan-font/yekan-regular.eot') format('eot'),
+    url('../src/assets/fonts/yekan-font/yekan-regular.ttf') format('ttf'),
+    url('../src/assets/fonts/yekan-font/yekan-regular.woff') format('woff'),
+    url('../src/assets/fonts/yekan-font/Yekan.eot') format('eot'),
+    url('../src/assets/fonts/yekan-font/Yekan.ttf') format('ttf'),
+    url('../src/assets/fonts/yekan-font/Yekan.woff') format('wof'),
+    /* Add more src lines if you have different font weights or styles */
+  }
+  *{
+    font-family: 'yekan';
+  }

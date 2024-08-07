@@ -1,0 +1,14 @@
+/* pallet color 
+Primary Color #E7ECEF
+Secondary Color #274C77
+Tertiary Color #6096BA
+Quaternary Color   #A3CEF1  
+Quinary Color #8B8C89 */
+
+
+/* Optionally, apply the font to specific elements */
+body {
+  background-color: #fff !important;
+  direction: rtl;
+  overflow-x: hidden;
+}
