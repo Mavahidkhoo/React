@@ -1,10 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faCar, faBomb, faPercent, faBasketShopping, faCreditCard, faMobileScreenButton, faCouch } from "@fortawesome/free-solid-svg-icons";
+import { faBars,faHome, faCar, faBomb, faPercent, faBasketShopping, faCreditCard, faMobileScreenButton, faCouch } from "@fortawesome/free-solid-svg-icons";
 import "./Digimenu.css";
-import { icon } from "@fortawesome/fontawesome-svg-core";
 
 const menuItems = [
+  { icon: faHome, label:"خانه" },
   { icon: faBomb, label: "شگفت انگیزها" },
   { icon: faBasketShopping, label: "سوپرمارکت" },
   { icon: faCreditCard, label: "کارت هدیه" },
@@ -28,9 +28,9 @@ function Digimenu() {
             <div className="submenu">
               <ul className="d-flex flex-column w-100">
                 {products.map((item, index) => (
-                  <li key={index} className="d-flex justify-content-around text-muted disabled">
+                  <li key={index} className="d-flex justify-content-around text-muted">
                     <div className="d-flex flex-column-reverse">
-                      <FontAwesomeIcon icon={item.icon} className="" />
+                      <FontAwesomeIcon icon={item.icon} />
                     </div>
                     <span>{item.label}</span>
                   </li>

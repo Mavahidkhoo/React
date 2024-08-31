@@ -40,7 +40,7 @@ function Login() {
 
   return (
     <div className="container d-flex justify-content-center">
-      <div className="col-5 text-center">
+      <div className="col-5 text-center registerborder">
         <h2 className="my-4">ورود</h2>
         {message && <div className="alert alert-info mt-3">{message}</div>}
         <form onSubmit={handleSubmit(onSubmit)}>

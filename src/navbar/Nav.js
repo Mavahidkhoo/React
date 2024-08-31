@@ -32,11 +32,6 @@ function Nav() {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contact" activeClassName="active">
-                ارتباط با من
-              </NavLink>
-            </li>
-            <li className="nav-item">
               <NavLink className="nav-link" to="/about" activeClassName="active">
                 درباره من
               </NavLink>

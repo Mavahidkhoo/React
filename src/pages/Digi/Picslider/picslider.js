@@ -31,7 +31,7 @@ function Picslider() {
     <div id="picslider" className="container">
       <Carousel>
         {Slider.map((item, index) => (
-          <Carousel.Item>
+          <Carousel.Item key={index}>
             <img className="d-block w-100" src={item.pic} alt={item.altPic} />
             <Carousel.Caption>
               <h3>{item.sub}</h3>

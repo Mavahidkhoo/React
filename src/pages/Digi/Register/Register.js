@@ -74,7 +74,7 @@ function Register() {
 
   return (
     <div className="container d-flex justify-content-center">
-      <div className="col-5 text-center">
+      <div className="col-5 text-center registerborder">
         <NavLink className="navbar-brand" to="/">
           <img
             src={Logo}
